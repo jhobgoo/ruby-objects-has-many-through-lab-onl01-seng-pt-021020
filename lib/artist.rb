@@ -22,7 +22,11 @@ class Artist
   def new_song(name, genre)
     Song.new(name, self, genre)
   end
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 610ef5a1be2c787664c04f9be94de5f7a852b31a
   def genres
     songs.map do |song|
       song.genre
